@@ -36,9 +36,15 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Atapecio.o \
+	${OBJECTDIR}/Cilindro-A-V.o \
+	${OBJECTDIR}/CuadroAstericos.o \
 	${OBJECTDIR}/Ej-2.o \
+	${OBJECTDIR}/NumeroPosNegCer.o \
+	${OBJECTDIR}/OperacionBasica.o \
+	${OBJECTDIR}/ParImp.o \
 	${OBJECTDIR}/Promedio5n.o \
 	${OBJECTDIR}/Promedio_edad.o \
+	${OBJECTDIR}/Segundos.o \
 	${OBJECTDIR}/Ventas.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/tipo_dato.o
@@ -73,10 +79,35 @@ ${OBJECTDIR}/Atapecio.o: Atapecio.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Atapecio.o Atapecio.c
 
+${OBJECTDIR}/Cilindro-A-V.o: Cilindro-A-V.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Cilindro-A-V.o Cilindro-A-V.c
+
+${OBJECTDIR}/CuadroAstericos.o: CuadroAstericos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/CuadroAstericos.o CuadroAstericos.c
+
 ${OBJECTDIR}/Ej-2.o: Ej-2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ej-2.o Ej-2.c
+
+${OBJECTDIR}/NumeroPosNegCer.o: NumeroPosNegCer.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/NumeroPosNegCer.o NumeroPosNegCer.c
+
+${OBJECTDIR}/OperacionBasica.o: OperacionBasica.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/OperacionBasica.o OperacionBasica.c
+
+${OBJECTDIR}/ParImp.o: ParImp.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ParImp.o ParImp.c
 
 ${OBJECTDIR}/Promedio5n.o: Promedio5n.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -87,6 +118,11 @@ ${OBJECTDIR}/Promedio_edad.o: Promedio_edad.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Promedio_edad.o Promedio_edad.c
+
+${OBJECTDIR}/Segundos.o: Segundos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Segundos.o Segundos.c
 
 ${OBJECTDIR}/Ventas.o: Ventas.c
 	${MKDIR} -p ${OBJECTDIR}

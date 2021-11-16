@@ -23,8 +23,13 @@ int main(int argc, char** argv) {
     printf ("Digite la calificacion 5: ");
         scanf ("%f", &c5);
     promedio = (c1+c2+c3+c4+c5)/5;
-     printf ("\nEl promedio de calificacion es: %.2f", promedio); 
-
+     printf ("\nEl promedio de calificacion es: %.2f", promedio);
+     
+     if (promedio >= 6){
+         printf("\nAprobaste el curso con %.2f", promedio);
+     }
+     else
+         printf("\nReprobo el curso con %.2f\n\n\n", promedio);
     return (EXIT_SUCCESS);
 }
 
