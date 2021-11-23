@@ -13,15 +13,18 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Atapecio.c</itemPath>
+      <itemPath>Año.c</itemPath>
       <itemPath>Cilindro-A-V.c</itemPath>
       <itemPath>CuadroAstericos.c</itemPath>
       <itemPath>Ej-2.c</itemPath>
+      <itemPath>M-Km.c</itemPath>
       <itemPath>NumeroPosNegCer.c</itemPath>
       <itemPath>OperacionBasica.c</itemPath>
       <itemPath>ParImp.c</itemPath>
       <itemPath>Promedio5n.c</itemPath>
       <itemPath>Promedio_edad.c</itemPath>
       <itemPath>Segundos.c</itemPath>
+      <itemPath>Temperaturas.c</itemPath>
       <itemPath>Ventas.c</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>tipo_dato.c</itemPath>
@@ -48,7 +51,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Promedio5n.c" ex="false" tool="0" flavor2="0">
+      <item path="Temperaturas.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -73,11 +76,15 @@
       </compileType>
       <item path="Atapecio.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Año.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Cilindro-A-V.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="CuadroAstericos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ej-2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="M-Km.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="NumeroPosNegCer.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -90,6 +97,8 @@
       <item path="Promedio_edad.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Segundos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Temperaturas.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ventas.c" ex="false" tool="0" flavor2="0">
       </item>

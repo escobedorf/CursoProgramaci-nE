@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Promedio5n.o
+	${OBJECTDIR}/Temperaturas.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cursoprogramacion.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cursoprogramacion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Promedio5n.o: Promedio5n.c
+${OBJECTDIR}/Temperaturas.o: Temperaturas.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Promedio5n.o Promedio5n.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Temperaturas.o Temperaturas.c
 
 # Subprojects
 .build-subprojects:

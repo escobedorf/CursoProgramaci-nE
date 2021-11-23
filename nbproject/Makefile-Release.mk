@@ -36,15 +36,18 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Atapecio.o \
+	${OBJECTDIR}/Año.o \
 	${OBJECTDIR}/Cilindro-A-V.o \
 	${OBJECTDIR}/CuadroAstericos.o \
 	${OBJECTDIR}/Ej-2.o \
+	${OBJECTDIR}/M-Km.o \
 	${OBJECTDIR}/NumeroPosNegCer.o \
 	${OBJECTDIR}/OperacionBasica.o \
 	${OBJECTDIR}/ParImp.o \
 	${OBJECTDIR}/Promedio5n.o \
 	${OBJECTDIR}/Promedio_edad.o \
 	${OBJECTDIR}/Segundos.o \
+	${OBJECTDIR}/Temperaturas.o \
 	${OBJECTDIR}/Ventas.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/tipo_dato.o
@@ -79,6 +82,11 @@ ${OBJECTDIR}/Atapecio.o: Atapecio.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Atapecio.o Atapecio.c
 
+${OBJECTDIR}/Año.o: Año.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Año.o Año.c
+
 ${OBJECTDIR}/Cilindro-A-V.o: Cilindro-A-V.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -93,6 +101,11 @@ ${OBJECTDIR}/Ej-2.o: Ej-2.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ej-2.o Ej-2.c
+
+${OBJECTDIR}/M-Km.o: M-Km.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/M-Km.o M-Km.c
 
 ${OBJECTDIR}/NumeroPosNegCer.o: NumeroPosNegCer.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -123,6 +136,11 @@ ${OBJECTDIR}/Segundos.o: Segundos.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Segundos.o Segundos.c
+
+${OBJECTDIR}/Temperaturas.o: Temperaturas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Temperaturas.o Temperaturas.c
 
 ${OBJECTDIR}/Ventas.o: Ventas.c
 	${MKDIR} -p ${OBJECTDIR}
